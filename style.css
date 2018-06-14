@@ -22,6 +22,11 @@ button:focus {
 	  text-decoration: none;
   }
 
+  
+  .sg-question-title{
+	  font-size:18px;
+color:#0290b3;
+  }
 
 
 
@@ -88,12 +93,46 @@ button:focus {
 /*==================banner=============*/
 .banner_img{
 	background:url('img/banner_new (2).jpg') no-repeat;
-	height:400px;
+	height:250px;
 	margin:-20px 0 0 0;
 
 }
+.banner_img2{
+	background:url('img/1.jpg') no-repeat;
+	height:350px;
+	margin:-40px 0 0 0;
+	padding:50px;
+}
+.dear_head{
+	color:#fff;
+	
+	font-family:'para_font';
+	font-size:48px;
+}
+.dear_para{
+	color:#fff;
+	font-family:'para_font';
+	font-size:22px;
+	margin:-30px 0 0 0;
+}
+.click_btn{
+	
+	height:40px;
+	color:#000;
+	font-weight:bold;
+	font-size:16px;
+	background:#f2ac05;
+	border:none;
+	border-radius:3px;
+	padding:20px 20px 40px 20px;
+	margin:20px 0 0 0;
+}
+.click_btn:hover{
+	background:#f27a05;
+}
 .thank_u{
 	color:#023c73;
+	font-weight:bold;
 	font-family:'para_font';
 	font-size:40px;
 }
@@ -124,7 +163,7 @@ button:focus {
 	height:50px;
 	margin:10px 0 30px 0;
 	color:#fff;
-	font-size:20px;
+	font-size:21px;
 	transition:.3s ease;
 }
 .my_btn:hover{
@@ -159,7 +198,10 @@ color:#0290b3;
 	
 	
 }
-
+.social_icon{
+	color:#3FBEDD;
+	font-size:24px;
+}
 
 
 @media screen and (min-width:100px) and (max-width:480px){
@@ -173,7 +215,18 @@ color:#0290b3;
     display: table;
     clear: both;
 }
-
+.dear_head{
+	color:#fff;
+	
+	font-family:'para_font';
+	font-size:28px;
+}
+.dear_para{
+	color:#fff;
+	font-family:'para_font';
+	font-size:16px;
+	margin:-30px 0 0 0;
+}
 	
 
 	
@@ -208,8 +261,8 @@ color:#0290b3;
 /*==============banner==============*/
 .banner_img{
 	background:url('img/banner_mobile.jpg') no-repeat;
-	height:290px;
-    background-size: cover;
+	height:90px;
+ 
 	margin:-20px auto;
 }
 
@@ -218,7 +271,7 @@ color:#0290b3;
 	border:none;
 	border-radius:5px;
 	background:#0290b3;
-	height:50px;
+	height:40px;
 	margin:10px 0 30px 0;
 	color:#fff;
 	font-size:18px;
@@ -338,7 +391,7 @@ background:#43e0de;
 /*==============banner================*/
 .banner_img{
 	background:url('img/banner_tab.jpg')no-repeat!important;
-	height:550px;
+	height:200px;
 	width:850px!important;
     background-size: cover;
 	margin:0 auto;
