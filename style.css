@@ -406,7 +406,7 @@ color:#0290b3;
 	}
 	/*====================ipad===================*/
 	
-@media screen and (min-width:100px) and (max-width:375px){
+@media screen and (min-width:732px) and (max-width:1024px){
 	.slideanim.slide {                  
     visibility: visible;                  
     animation: slide 1s;
